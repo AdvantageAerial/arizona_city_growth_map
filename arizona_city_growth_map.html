@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_333408c324440f6ef1348969a28443c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_333408c324440f6ef1348969a28443c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_333408c324440f6ef1348969a28443c7 = L.map(
+                "map_333408c324440f6ef1348969a28443c7",
+                {
+                    center: [32.7559, -111.6712],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f258608a620bf741b6a85d0ec03aecd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var marker_33e4754dba8a1da986406ca96c4f0d92 = L.marker(
+                [32.8605, -111.6909],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_25c9413c58aa442cf32967b087ea5b7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_33e4754dba8a1da986406ca96c4f0d92.setIcon(icon_25c9413c58aa442cf32967b087ea5b7a);
+        
+    
+        var popup_227981c1b7a660861637e032899d7004 = L.popup({"maxWidth": 300});
+
+        
+            var html_788b6d62449a6e53eee3acf9c07cf36f = $(`<div id="html_788b6d62449a6e53eee3acf9c07cf36f" style="width: 100.0%; height: 100.0%;"><b>Lucid Motors EV Manufacturing Campus (AMP‑1)</b><br>Lucid Motors’ 3.85 M sq ft AMP‑1 plant produces luxury EVs. Ongoing multi‑billion expansion.</div>`)[0];
+            popup_227981c1b7a660861637e032899d7004.setContent(html_788b6d62449a6e53eee3acf9c07cf36f);
+        
+
+        marker_33e4754dba8a1da986406ca96c4f0d92.bindPopup(popup_227981c1b7a660861637e032899d7004)
+        ;
+
+        
+    
+    
+            var marker_41eb66ce920b060e5bd44b4488fec665 = L.marker(
+                [33.2799, -111.6265],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_1a8f343bea0e3184db83510bf7f41dc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_41eb66ce920b060e5bd44b4488fec665.setIcon(icon_1a8f343bea0e3184db83510bf7f41dc1);
+        
+    
+        var popup_a064b40a5aac8bf53fb16743fb465100 = L.popup({"maxWidth": 300});
+
+        
+            var html_3a313c421b3a51f888d607aa2313f5b2 = $(`<div id="html_3a313c421b3a51f888d607aa2313f5b2" style="width: 100.0%; height: 100.0%;"><b>LG Energy Solution Battery Complex</b><br>Multi‑billion battery manufacturing hub; vertical construction began 2024.</div>`)[0];
+            popup_a064b40a5aac8bf53fb16743fb465100.setContent(html_3a313c421b3a51f888d607aa2313f5b2);
+        
+
+        marker_41eb66ce920b060e5bd44b4488fec665.bindPopup(popup_a064b40a5aac8bf53fb16743fb465100)
+        ;
+
+        
+    
+    
+            var marker_cc424e2afde84313c6a550c97d32cd11 = L.marker(
+                [32.9707, -111.469],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_8ba6d32693180d4730a111d4a293a7c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_cc424e2afde84313c6a550c97d32cd11.setIcon(icon_8ba6d32693180d4730a111d4a293a7c9);
+        
+    
+        var popup_255e28b3bc5a9343a2120191a4e56cc0 = L.popup({"maxWidth": 300});
+
+        
+            var html_344c3911137aa10d03d2dfdc30c83194 = $(`<div id="html_344c3911137aa10d03d2dfdc30c83194" style="width: 100.0%; height: 100.0%;"><b>Nikola (Lucid‑acquired) Manufacturing Plant</b><br>700 K sq ft truck plant in Coolidge, now being repurposed by Lucid after 2025 acquisition.</div>`)[0];
+            popup_255e28b3bc5a9343a2120191a4e56cc0.setContent(html_344c3911137aa10d03d2dfdc30c83194);
+        
+
+        marker_cc424e2afde84313c6a550c97d32cd11.bindPopup(popup_255e28b3bc5a9343a2120191a4e56cc0)
+        ;
+
+        
+    
+    
+            var marker_83fe2188e63283643e5457a2046fe659 = L.marker(
+                [32.979, -111.517],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_9512990b3e6f1c70e86a2d6ab069a1a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_83fe2188e63283643e5457a2046fe659.setIcon(icon_9512990b3e6f1c70e86a2d6ab069a1a5);
+        
+    
+        var popup_0d550de25e2238267d57d3ef2bccc7f6 = L.popup({"maxWidth": 300});
+
+        
+            var html_e5286d6c3503faff2812628c812d7573 = $(`<div id="html_e5286d6c3503faff2812628c812d7573" style="width: 100.0%; height: 100.0%;"><b>Procter & Gamble Fabric‑Care Facility</b><br>$500 M Tide/Downy plant. 500 jobs. Opens 2025.</div>`)[0];
+            popup_0d550de25e2238267d57d3ef2bccc7f6.setContent(html_e5286d6c3503faff2812628c812d7573);
+        
+
+        marker_83fe2188e63283643e5457a2046fe659.bindPopup(popup_0d550de25e2238267d57d3ef2bccc7f6)
+        ;
+
+        
+    
+    
+            var marker_69fede49e611270ab2df70f93a5e4b51 = L.marker(
+                [32.8188, -111.626],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_e6961186f0f8949e1566ef113cae37de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_69fede49e611270ab2df70f93a5e4b51.setIcon(icon_e6961186f0f8949e1566ef113cae37de);
+        
+    
+        var popup_9a4010374a39611bdd4d3f8b1718d903 = L.popup({"maxWidth": 300});
+
+        
+            var html_214100f7fe5e2a03c22e21365aee0748 = $(`<div id="html_214100f7fe5e2a03c22e21365aee0748" style="width: 100.0%; height: 100.0%;"><b>Kohler Vikrell Bath Fixtures Plant</b><br>$300 M, 1 M sq ft bathroom fixtures plant. 400 jobs. Opened 2024.</div>`)[0];
+            popup_9a4010374a39611bdd4d3f8b1718d903.setContent(html_214100f7fe5e2a03c22e21365aee0748);
+        
+
+        marker_69fede49e611270ab2df70f93a5e4b51.bindPopup(popup_9a4010374a39611bdd4d3f8b1718d903)
+        ;
+
+        
+    
+    
+            var marker_a0cb885d5fc0df9e2deea498fc634bff = L.marker(
+                [32.874, -111.66],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_bc7aee267b79bbb7849ec2b8a8579e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a0cb885d5fc0df9e2deea498fc634bff.setIcon(icon_bc7aee267b79bbb7849ec2b8a8579e5f);
+        
+    
+        var popup_060e0b91f890346b9b6e3478714e15c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_6e29e67cefd947a1b1d4b296349f68b7 = $(`<div id="html_6e29e67cefd947a1b1d4b296349f68b7" style="width: 100.0%; height: 100.0%;"><b>Chang Chun Group Chemical Plant</b><br>540 K sq ft electronic‑grade chemical facility. Phased build‑out 2023‑25.</div>`)[0];
+            popup_060e0b91f890346b9b6e3478714e15c7.setContent(html_6e29e67cefd947a1b1d4b296349f68b7);
+        
+
+        marker_a0cb885d5fc0df9e2deea498fc634bff.bindPopup(popup_060e0b91f890346b9b6e3478714e15c7)
+        ;
+
+        
+    
+    
+            var marker_c54e7c9ddeebd720b5c09a082fbe924f = L.marker(
+                [32.887, -111.738],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_501a96ca830de676ea07acb255c4944d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c54e7c9ddeebd720b5c09a082fbe924f.setIcon(icon_501a96ca830de676ea07acb255c4944d);
+        
+    
+        var popup_b8ca41d3841f8d1c747513f9cd784bac = L.popup({"maxWidth": 300});
+
+        
+            var html_8f6e25700b86df93324c33b52d05a989 = $(`<div id="html_8f6e25700b86df93324c33b52d05a989" style="width: 100.0%; height: 100.0%;"><b>NRS Logistics Warehouse & Gas Pad</b><br>69 K sq ft specialty chemicals hub supporting semiconductor supply chain. Full build‑out 2025.</div>`)[0];
+            popup_b8ca41d3841f8d1c747513f9cd784bac.setContent(html_8f6e25700b86df93324c33b52d05a989);
+        
+
+        marker_c54e7c9ddeebd720b5c09a082fbe924f.bindPopup(popup_b8ca41d3841f8d1c747513f9cd784bac)
+        ;
+
+        
+    
+    
+            var marker_257358d6df03684206b5b597cbbbd332 = L.marker(
+                [32.865, -111.645],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_a884d91d9b1918b04987364642562dc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_257358d6df03684206b5b597cbbbd332.setIcon(icon_a884d91d9b1918b04987364642562dc6);
+        
+    
+        var popup_0527475fbf078312593b1c168c8b5272 = L.popup({"maxWidth": 300});
+
+        
+            var html_b21115ddfaf46e68e29eecaab53b03bb = $(`<div id="html_b21115ddfaf46e68e29eecaab53b03bb" style="width: 100.0%; height: 100.0%;"><b>Air Products Green Hydrogen Facility</b><br>10 t/day green H₂ plant for mobility & industry. In construction, online 2025.</div>`)[0];
+            popup_0527475fbf078312593b1c168c8b5272.setContent(html_b21115ddfaf46e68e29eecaab53b03bb);
+        
+
+        marker_257358d6df03684206b5b597cbbbd332.bindPopup(popup_0527475fbf078312593b1c168c8b5272)
+        ;
+
+        
+    
+    
+            var marker_1de138565379b1b1b2e5fecdd5a9263f = L.marker(
+                [33.032, -111.3879],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_1a8a7f4770b5714304b5a1bb0db91576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1de138565379b1b1b2e5fecdd5a9263f.setIcon(icon_1a8a7f4770b5714304b5a1bb0db91576);
+        
+    
+        var popup_6d95fdb063d633cdae42725b13a595e4 = L.popup({"maxWidth": 300});
+
+        
+            var html_acd8e158ef59219e9a961a772d282a23 = $(`<div id="html_acd8e158ef59219e9a961a772d282a23" style="width: 100.0%; height: 100.0%;"><b>Sunhill Data Center & Battery Storage Park</b><br>96‑acre data center + BESS campus. Rezoning approved 2024. ≈90 jobs.</div>`)[0];
+            popup_6d95fdb063d633cdae42725b13a595e4.setContent(html_acd8e158ef59219e9a961a772d282a23);
+        
+
+        marker_1de138565379b1b1b2e5fecdd5a9263f.bindPopup(popup_6d95fdb063d633cdae42725b13a595e4)
+        ;
+
+        
+    
+    
+            var marker_5b2f2b15e96d80f48be4dd0124406d33 = L.marker(
+                [32.9144, -111.736],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_73da3692600e08cc037bd2b966848b9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_5b2f2b15e96d80f48be4dd0124406d33.setIcon(icon_73da3692600e08cc037bd2b966848b9e);
+        
+    
+        var popup_7340d73b3bbf480c41bfd79b981f17bb = L.popup({"maxWidth": 300});
+
+        
+            var html_798a7aac9f08bbc53eaf2823e9ed1317 = $(`<div id="html_798a7aac9f08bbc53eaf2823e9ed1317" style="width: 100.0%; height: 100.0%;"><b>FrameTec Wood‑Component Plant</b><br>254 K sq ft truss & wall‑panel plant. $150 M. 400 jobs by 2026.</div>`)[0];
+            popup_7340d73b3bbf480c41bfd79b981f17bb.setContent(html_798a7aac9f08bbc53eaf2823e9ed1317);
+        
+
+        marker_5b2f2b15e96d80f48be4dd0124406d33.bindPopup(popup_7340d73b3bbf480c41bfd79b981f17bb)
+        ;
+
+        
+    
+    
+            var marker_61f0b3395c284d404374cc56ca650deb = L.marker(
+                [32.857, -111.963],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_a2c7e613f6bb94240613049495157600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61f0b3395c284d404374cc56ca650deb.setIcon(icon_a2c7e613f6bb94240613049495157600);
+        
+    
+        var popup_397dfa6819ded3f791ff0c9a0b8b83ba = L.popup({"maxWidth": 300});
+
+        
+            var html_4f76d1087ea2977f8f340aa1e55be8f4 = $(`<div id="html_4f76d1087ea2977f8f340aa1e55be8f4" style="width: 100.0%; height: 100.0%;"><b>Attesa Motorsports & Technology Complex</b><br>2,350‑acre motorsports, R&D, and mixed‑use community.</div>`)[0];
+            popup_397dfa6819ded3f791ff0c9a0b8b83ba.setContent(html_4f76d1087ea2977f8f340aa1e55be8f4);
+        
+
+        marker_61f0b3395c284d404374cc56ca650deb.bindPopup(popup_397dfa6819ded3f791ff0c9a0b8b83ba)
+        ;
+
+        
+    
+    
+            var marker_db7a0515062fe1667fab99ec898e19a1 = L.marker(
+                [32.852, -111.61],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_02d6f34b30e0a24e2158981daf1383a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_db7a0515062fe1667fab99ec898e19a1.setIcon(icon_02d6f34b30e0a24e2158981daf1383a0);
+        
+    
+        var popup_2c94be6d146b7e664a792f296045201b = L.popup({"maxWidth": 300});
+
+        
+            var html_bbf12c218d8e75ea754d2d55ab193248 = $(`<div id="html_bbf12c218d8e75ea754d2d55ab193248" style="width: 100.0%; height: 100.0%;"><b>PhoenixMart Global Commerce Center</b><br>1.5 M sq ft wholesale mart; renewed activity report.</div>`)[0];
+            popup_2c94be6d146b7e664a792f296045201b.setContent(html_bbf12c218d8e75ea754d2d55ab193248);
+        
+
+        marker_db7a0515062fe1667fab99ec898e19a1.bindPopup(popup_2c94be6d146b7e664a792f296045201b)
+        ;
+
+        
+    
+    
+            var marker_bca08b18d17af14db59a54b98edbde07 = L.marker(
+                [32.763, -111.674],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_8bf3b3ad34180e1f2893586b242dc966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bca08b18d17af14db59a54b98edbde07.setIcon(icon_8bf3b3ad34180e1f2893586b242dc966);
+        
+    
+        var popup_dec17889fbff5c93e79e75d4fc81a2ed = L.popup({"maxWidth": 300});
+
+        
+            var html_ae085a8d73bfb826caf00dd3a3859c28 = $(`<div id="html_ae085a8d73bfb826caf00dd3a3859c28" style="width: 100.0%; height: 100.0%;"><b>Century Complete Residential Community</b><br>Entry‑level single‑family homes from $230 K; multiple active plats.</div>`)[0];
+            popup_dec17889fbff5c93e79e75d4fc81a2ed.setContent(html_ae085a8d73bfb826caf00dd3a3859c28);
+        
+
+        marker_bca08b18d17af14db59a54b98edbde07.bindPopup(popup_dec17889fbff5c93e79e75d4fc81a2ed)
+        ;
+
+        
+    
+    
+            var marker_7e2353483ab1d1911613f47b0c3e5b89 = L.marker(
+                [32.7559, -111.6712],
+                {}
+            ).addTo(map_333408c324440f6ef1348969a28443c7);
+        
+    
+            var icon_c64800ae995b6242d2b05528ff41c5f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_7e2353483ab1d1911613f47b0c3e5b89.setIcon(icon_c64800ae995b6242d2b05528ff41c5f9);
+        
+    
+        var popup_cd6f2f369d857c7d3877c17bf6484de4 = L.popup({"maxWidth": 300});
+
+        
+            var html_8c2564239483fc3714d40cf468859f1b = $(`<div id="html_8c2564239483fc3714d40cf468859f1b" style="width: 100.0%; height: 100.0%;"><b>Prime Vacant Land – Arizona City Growth Area</b><br>Undeveloped parcels positioned to benefit from surrounding megaprojects.</div>`)[0];
+            popup_cd6f2f369d857c7d3877c17bf6484de4.setContent(html_8c2564239483fc3714d40cf468859f1b);
+        
+
+        marker_7e2353483ab1d1911613f47b0c3e5b89.bindPopup(popup_cd6f2f369d857c7d3877c17bf6484de4)
+        ;
+
+        
+    
+</script>
+</html>
